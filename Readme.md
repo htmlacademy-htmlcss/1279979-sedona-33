@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Артем Сальников](https://up.htmlacademy.ru/htmlcss/33/user/1279979).
-* Наставник: [Олег Зубов](https://up.htmlacademy.ru/profession/frontender/13/htmlcss/user/42701).
+* Студент: [ Артем Сальников ](https://up.htmlacademy.ru/htmlcss/33/user/1279979).
+* Наставник: [ Олег Зубов ](https://up.htmlacademy.ru/profession/frontender/13/htmlcss/user/42701).
 
 ---
 
