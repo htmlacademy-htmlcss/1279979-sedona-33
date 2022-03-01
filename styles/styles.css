@@ -105,8 +105,8 @@ body {
 
 .navigation {
   display: flex;
-  width: 1060px;
-  margin: 0 auto;
+  padding-left: 70px;
+  padding-right: 70px;
   justify-content: space-between;
 }
 
@@ -298,18 +298,12 @@ body {
   display: flex;
 }
 
-.social-footer {
-  width: 107px;
-  margin-left: 72px;
-}
-
 .social-footer-item {
   list-style: none;
 }
 
 .footer-contacts {
-  width: 720px;
-  margin: 0 auto;
+  flex-grow: 1;
 }
 
 .footer-contacts-phone {
@@ -318,11 +312,6 @@ body {
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
-}
-
-.footer-logo {
-  width: 115px;
-  margin-right: 72px;
 }
 
 /* Catalog */
@@ -401,9 +390,10 @@ body {
 .catalog-filter-list-type {
   padding: 0;
 }
-.hotel-select-container {
-  width: 1057px;
-  margin: 0 auto;
+
+.catalog-padding {
+  padding-left: 71px;
+  padding-right: 72px;
 }
 
 .hotel-card-found-text {
@@ -490,6 +480,12 @@ body {
   line-height: 23px;
   font-weight: 400;
 }
+
+.catalog-newsletter {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
 .catalog-newsletter-form {
   display: flex;
   justify-content: center;
