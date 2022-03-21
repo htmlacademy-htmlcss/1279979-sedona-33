@@ -819,7 +819,7 @@ body {
   background-image: url(../images/date.svg);
   background-repeat: no-repeat;
   background-position: right 19px center;
-  padding-right: 5 0px;
+  padding-right: 50px;
 }
 
 .check-in-form-field::-webkit-input-placeholder {
