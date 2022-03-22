@@ -741,6 +741,8 @@ body {
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
 }
 
 .footer-contacts-phone:hover {
@@ -1326,9 +1328,10 @@ body {
 }
 
 .control-mark {
+  position: relative;
   display: block;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   margin-right: 19px;
   background-color: #FFFFFF;
   border-radius: 4px;
@@ -1349,15 +1352,22 @@ body {
 
 .control-input[type="checkbox"]:checked+.control-mark::before {
   position: absolute;
-  top: -1px;
-  left: 4px;
-  content: url("../images/select.svg");
+  top: calc(50% - 5px);
+  left: calc(50% - 6px);
+  display: block;
+  width: 13px;
+  height: 10px;
+  content: "";
+  background-image: url("../images/select.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .control-mark-other {
+  position: relative;
   display: block;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   margin-right: 19px;
   background-color: #FFFFFF;
   border-radius: 50%;
@@ -1369,8 +1379,8 @@ body {
 
 .control-input[type="radio"]:checked+.control-mark-other::before {
   position: absolute;
-  top: 6.5px;
-  left: 5px;
+  top: calc(50% - 5px);
+  left: calc(50% - 5px);
   width: 10px;
   height: 10px;
   content: "";
@@ -1521,7 +1531,6 @@ body {
 .hotel-card-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin: 0;
   margin-bottom: 24px;
   padding: 0;
