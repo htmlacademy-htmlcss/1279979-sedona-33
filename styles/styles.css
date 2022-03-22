@@ -611,7 +611,7 @@ body {
 .main-newsletter {
   padding: 94px 200px;
   background-image: url("../images/background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #83B3D3;
   color: #FFFFFF;
